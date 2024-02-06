@@ -48,6 +48,29 @@ img{
     width: calc(4* 100% / 12);
 }
 
+.card{
+    position: relative;
+}
+
+.card .red, .green{
+    position: absolute;
+    bottom: 100px;
+}
+.card .save{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.card .red{
+    left: 10px;
+}
+
+.card .green{
+    left: 50px;   
+}
+
+
 /*STYLE*/
 
 .page-header{
@@ -64,4 +87,31 @@ img{
 
 .col-4 .card{
     padding: 10px;
+}
+
+.card .clothing-brand, .price-discount{
+    color: grey;
+}
+.card .price-discount{
+    text-decoration: line-through;
+}
+
+.card .red{
+    background-color: red;
+    color: white;
+}
+
+.card .green{
+    background-color: green;
+    color: white;
+}
+.card .price{
+    color: red;
+}
+
+.card .save{
+    background-color: white;
+    padding: 5px 8px;
+    font-size: 20px;
+    line-height: 20px;
 }
