@@ -52,23 +52,18 @@ img{
     position: relative;
 }
 
-.card .red, .green{
+.card .img-badge{
     position: absolute;
+    left: 10px;
     bottom: 100px;
 }
+
 .card .save{
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 10px;
 }
 
-.card .red{
-    left: 10px;
-}
-
-.card .green{
-    left: 50px;   
-}
 
 
 /*STYLE*/
