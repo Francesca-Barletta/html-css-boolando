@@ -49,6 +49,10 @@ img{
     width: calc(4* 100% / 12);
 }
 
+.col-2{
+    width: calc(6* 100% / 12);
+}
+
 .card{
     position: relative;
 }
@@ -120,4 +124,28 @@ img{
 }
 .card:hover .overlay{
     opacity: 1;
+}
+.page-footer{
+    background-color: black;
+    color: white;
+}
+.row-footer{
+    justify-content: space-between;
+}
+h4, li{
+    display: inline-block;
+}
+
+
+.footer-info, .footer-social{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.row-footer{
+    position: relative;
+}
+.col-social{
+    position: absolute;
+    right: 0px;
 }
