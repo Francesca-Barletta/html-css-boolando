@@ -14,3 +14,37 @@ color: currentColor;
 ul, ol, menu{
     list-style: none;
 }
+/*LAYOUT*/
+
+.container{
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-header .choose-type, .header-menu{
+    display: flex;
+    gap: 5px;
+    padding: 24px;
+}
+
+.row-header .choose-type{
+    justify-content: flex-start;
+}
+
+.row-header .header-menu{
+    justify-content: flex-end;
+}
+/*STYLE*/
+
+.page-header{
+    background-color: rgb(255, 119, 0); 
+}
+
+.page-header .container{
+    color: white;
+}
