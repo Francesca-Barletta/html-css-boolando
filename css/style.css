@@ -25,11 +25,12 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
-
+.container-hd, .container-ft{
+    padding: 10px;
+}
 .container{
     max-width: 900px;
     margin: 0 auto;
-    padding: 24px;
 }
 
 .row-header{
@@ -95,11 +96,15 @@ img{
     text-decoration: line-through;
 }
 
+.card .red, .green{
+    
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
 .card .red{
     background-color: red;
-    color: white;
 }
-
 .card .green{
     background-color: green;
     color: white;
@@ -141,6 +146,7 @@ h4, li{
     display: flex;
     flex-direction: row;
     gap: 5px;
+    font-size: 12px;
 }
 .row-footer{
     position: relative;
