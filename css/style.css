@@ -14,31 +14,30 @@ color: currentColor;
 ul, ol, menu{
     list-style: none;
 }
+
+img{
+    max-width: 100%;
+}
 /*LAYOUT*/
 
 .container{
     min-width: 900px;
     margin: 0 auto;
+    padding: 24px;
 }
 
 .row-header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .row-header .choose-type, .header-menu{
     display: flex;
+    flex-direction: row;
     gap: 5px;
-    padding: 24px;
 }
 
-.row-header .choose-type{
-    justify-content: flex-start;
-}
-
-.row-header .header-menu{
-    justify-content: flex-end;
-}
 /*STYLE*/
 
 .page-header{
@@ -47,4 +46,8 @@ ul, ol, menu{
 
 .page-header .container{
     color: white;
+}
+
+.page-header .header-logo{
+    width: 200px;
 }
